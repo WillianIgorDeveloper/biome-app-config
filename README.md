@@ -1,5 +1,6 @@
 # biome-app-config
 
+```json
 {
   "organizeImports": {
     "enabled": true
@@ -26,3 +27,4 @@
     }
   }
 }
+```
