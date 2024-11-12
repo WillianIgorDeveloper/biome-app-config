@@ -27,6 +27,9 @@
       "recommended": true,
       "style": {
         "noNonNullAssertion": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off"
       }
     }
   },
