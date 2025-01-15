@@ -11,27 +11,15 @@
     "ignoreUnknown": false,
     "ignore": []
   },
+  "organizeImports": {
+    "enabled": true
+  },
   "formatter": {
     "enabled": true,
     "formatWithErrors": true,
     "indentStyle": "space",
     "indentWidth": 2,
-    "lineWidth": 85
-  },
-  "organizeImports": {
-    "enabled": true
-  },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true,
-      "style": {
-        "noNonNullAssertion": "off"
-      },
-      "suspicious": {
-        "noExplicitAny": "off"
-      }
-    }
+    "lineWidth": 95
   },
   "javascript": {
     "formatter": {
@@ -39,7 +27,13 @@
       "semicolons": "asNeeded",
       "indentStyle": "space",
       "indentWidth": 2,
-      "lineWidth": 85
+      "lineWidth": 95
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
     }
   }
 }
